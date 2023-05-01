@@ -1,0 +1,739 @@
+
+.product--detail {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.product--detail .headline {
+    position: relative;
+}
+.product--detail .product--title .title {
+    padding-right: 170px;
+}
+.product--detail .share--button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.headline.two--columns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.product--title {
+    width: 100%;
+}
+.product--title .title  {
+    margin: 0px 0px 14px 0px;
+    font-size: 37px;
+    line-height: 42px;
+    max-width: none;
+}
+
+.product--title .sub--title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.product--title .box--sub-location {
+    font-size: 18px;
+}
+
+.product--title  .box--review {
+    margin: 0px 0px 0px 32px;
+    background: white;
+    border-left: 1px solid;
+    border-radius: 0;
+    padding: 0px 0px 0px 32px;
+    border-color: #ECECFD;
+}
+
+.product--title .share--button {
+    padding-left: 30px;
+}
+
+.headline .is--tertiary {
+    padding: 14px 34px;
+}
+
+.headline  .is--tertiary .svg {
+    margin: 0px 10px 0px 0px;
+}
+.product--gallery {
+    display: flex;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.product--gallery .image--content {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 500px;
+    position: relative;
+}
+.product--gallery .image--content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product--gallery .primary--image img {
+    border-radius: 8px 0px 0px 8px;
+}
+.border--radius-top-right {
+    border-radius: 0px 8px 0px 0px;
+}
+.border--radius-bottom-right {
+    border-radius: 0px 0px 8px 0px;
+}
+.primary--image {
+    width: 56%;
+    height: 100%;
+}
+.primary--image span {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 14px;
+}
+.rest--images {
+    width: 44%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rest--images span {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    display: flex;
+}
+.all--image-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.all--image-button .btn {
+    background: var(--bg-main);
+    margin-bottom: 30px;
+    margin-right: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 11px 16px;
+    border: 1px solid var(--bg-secondary-dark);
+    font-size: 14px;
+    font-weight: 600;
+}
+.all--image-button .btn .svg {
+    display: flex;
+    margin-right: 10px;
+}
+
+.is--detail-page .panel--headline {
+    padding: 20px 30px;
+    border-radius: 8px 8px 0px 0px;
+    align-items: center;
+}
+.is--detail-page .panel--headline h3 {
+    margin-bottom: 0;
+}
+
+.fasility--information {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 18px 28px 30px;
+    background: var(--bg-secondary);
+    margin-bottom: 16px;
+}
+.fasility--information:last-child {
+    border-radius: 0px 0px 8px 8px;
+}
+.fasility--information .sub--headline {
+    min-width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fasility--entities {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item--fasility {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.item--fasility .svg {
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
+}
+.fasility--entities.type--one .item--fasility{
+    width: 25%;
+    padding-right: 12px;
+}
+.fasility--item-entity {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: var(--bg-main);
+    padding: 14px 16px;
+    border-radius: var(--border-radius-button);
+    border: 1px solid var(--bg-secondary-dark);
+    margin-bottom: 12px;
+    min-height: 50px;
+}
+
+.fasility--item-entity.is--tertiary {
+    justify-content: space-between;
+    font-weight: 600;
+    background: var(--bg-tertonary-dark);
+}
+
+.amenities--quantity {
+    font-size: 16px;
+}
+
+.fasility--entities.type--two .item--fasility{
+    width: 33.33%;
+    margin-bottom: 20px;
+}
+
+.fasility--panel {
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel--box.rooms {
+    display: flex;
+    padding: 12px;
+    box-shadow: var(--second-nitral-shadow);
+    border-radius: var(--border-radius-panel);
+    position: relative;
+    transition: var(--general);
+    background: var(--bg-main);
+}
+.rooms.box--info .image--box {
+    box-shadow: 0px 5px 11px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    border-radius: var(--border-radius-panel);
+    width: 250px;
+    height: 200px;
+    min-width: 250px;
+}
+.rooms.box--info .image--element {
+    height: 100%;
+    width: 100%;
+}
+.rooms .box--details {
+    justify-content: space-between;
+    padding: 16px 14px 16px 24px;
+    align-items: flex-start;
+}
+.rooms  .box--properties {
+    margin: 18px 0px 12px;
+}
+.rooms .property--item {
+    width: auto;
+    padding: 2px 10px 3px 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.rooms .property--item .svg {
+    margin-right: 10px;
+}
+.rooms .box--title span {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.is--detail-page .box--content {
+    overflow: initial;
+    margin-bottom: 20px;
+}
+.room--registration {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.room--registration .hotel--price-field {
+    margin: 0;
+}
+.room--registration .hotel--price {
+    align-items: center;
+}
+.room--registration .btn.is--primary {
+    font-size: 14px;
+    padding: 12px 40px;
+}
+
+.room--book.flex--content {
+    margin-bottom: 20px;
+}
+.detail--review--panel {
+    padding: 30px 30px;
+    background: var(--bg-secondary);
+    border-radius: 0px 0px 8px 8px;
+}
+.review--panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--bg-main);
+    padding: 30px;
+    border-radius: var(--border-radius-panel);
+    margin-bottom: 20px;
+}
+.detail--review-entity {
+    display: flex;
+    flex-direction: column;
+}
+.review--title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.review--title .customer--image {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    min-width: 45px;
+    min-height: 45px;
+}
+.review--title .customer--image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review--title .customer--info {
+    display: flex;
+    align-items: center;
+}
+.review--title .customer--visit {
+    display: flex;
+    font-size: 14px;
+}
+.customer--information-person {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 26px 0px 16px;
+}
+.review--title .customer--name {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.visit--information {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.visit--information:last-child {
+    margin-right: 0;
+}
+.visit--information .svg {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.customer--review-count {
+    border-left: 1px solid #ECECFD;
+    padding-left: 32px;
+}
+.review--title  .listing--box-review {
+    margin: 0;
+    background: var(--bg-tertonary-dark);
+}
+.review--description p:last-child {
+    margin-bottom: 0;
+}
+.detail--review {
+    margin-bottom: 20px;
+}
+.detail--review .headline.two--columns {
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 8px 8px 0px 0px
+}
+.detail--review .headline.two--columns .panel--headline {
+    padding: 0;
+}
+.detail--review .headline.two--columns .panel--headline svg {
+    display: flex;
+    align-items: center;
+}
+.detail--review .headline.two--columns .panel--headline .review--count  {
+    margin: 0px 6px 0px 10px;
+}
+.detail--review .headline.two--columns .panel--headline h3 {
+    display: flex;
+    align-items: center;
+}
+.detail--review  .sorting select {
+    padding-right: 40px;
+    background: white;
+}
+.is--detail-page .sidebar--panel {
+    background: var(--bg-secondary);
+    box-shadow: none;
+    padding: 28px 20px;
+}
+.is--detail-page .sidebar-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-color: #F0F0F9;
+    margin-bottom: 20px;
+}
+.is--detail-page .panel--sidebar p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.reserv--infromation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.checkin--entity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+.checkin--entity .text {
+    font-size: 14px;
+    white-space: nowrap;
+}
+.reservation--time  {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    background: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.reservation--time .svg {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.panel--sidebar .info--list {
+    display: flex;
+    margin-bottom: 20px;
+}
+.panel--sidebar .info--list:last-child {
+    margin-bottom: 0;
+}
+.info--list .svg {
+    display: flex;
+    align-items: flex-start;
+    width: 20px;
+    min-width: 20px;
+    justify-content: flex-start;
+    padding-top: 8px;
+}
+.panel--sidebar p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1260px) {
+    .product--gallery .image--content {
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .room--book.flex--content {
+        flex-direction: column;
+    }
+    .room--book .left--column {
+        padding-right: 0;
+    }
+    .room--book .right--sidebar {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .product--gallery .image--content {
+        height: auto;
+    }
+    .primary--image {
+        width: 100%;
+        height: 460px;
+    }
+    .product--gallery .primary--image img {
+        border-radius: 8px 8px 0px 0px;
+    }
+    .rest--images {
+        width: 100%;
+        height: 200px;
+    }
+    .rest--images span:first-child {
+        padding-left: 0;
+    }
+    .rest--images span:first-child img {
+        border-radius: 0px 0px 0px 8px;
+    }
+    .rest--images span {
+        width: 25%;
+        height: 100%;
+    }
+    .rest--images .border--radius-top-right {
+        border-radius: 0;
+    }
+    .fasility--information .sub--headline {
+        min-width: 27%;
+    }
+    .fasility--entities.type--one .item--fasility {
+        width: 50%;
+    }
+    .fasility--entities.type--two .item--fasility {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .detail--review .load--boxes-button {
+        margin: 40px 0px 30px 0px;
+    }
+    .product--detail .product--title .title {
+        font-size: 28px;
+        line-height: 34px;
+        padding: 0;
+        text-align: center;
+    }
+    .product--title .sub--title {
+        flex-direction: column;
+        width: 100%;
+    }
+    .product--title .box--sub-location {
+        margin-bottom: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .product--title .box--review {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 10px 0px 0px 0px;
+        border: none;
+    }
+    .product--detail .share--button {
+        bottom: 20px;
+        top: auto;
+    }
+    .primary--image {
+        height: 400px;
+    }
+    .rest--images {
+        height: 380px;
+    }
+    .rest--images span {
+        width: 50%;
+        height: 50%;
+        padding: 0;
+        padding-bottom: 8px;
+    }
+    .rest--images span:first-child img {
+        border-radius: 0px 0px 0px 0px;
+    }
+    .rest--images span:nth-child(3) {
+        padding-left: 0;
+    }
+    .rest--images span:nth-child(3) img{
+        border-radius: 0px 0px 0px 8px;
+    }
+    .rest--images span:nth-child(1) {
+        padding-right: 4px;
+    }
+    .rest--images span:nth-child(2) {
+        padding-left: 4px;
+    }
+    .rest--images span:nth-child(3) {
+        padding-right: 4px;
+    }
+    .rest--images span:nth-child(4) {
+        padding-left: 4px;
+    }
+    .primary--image span {
+        padding-bottom: 8px;
+    }
+    .is--detail-page .panel--headline h3 {
+        text-align: center;
+    }
+    .fasility--information {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 6px 20px 18px;
+    }
+    .fasility--information .sub--headline {
+        margin-bottom: 20px;
+        margin-left: -12px;
+    }
+    .hotel--box.rooms {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px;
+    }
+    .rooms.box--info .image--box {
+        width: 100%;
+        max-width: 370px;
+        height: 300px;
+    }
+    .rooms .box--details {
+        padding: 26px 0px 4px;
+    }
+    .room--book .right--sidebar .panel--headline h3 {
+        text-align: left;
+    }
+    .detail--review .sorting {
+        display: none;
+    }
+    .review--title .customer--info {
+        position: relative;
+        width: 100%;
+    }
+    .customer--information-person {
+        padding-right: 0;
+        width: 100%;
+    }
+    .review--title .customer--name {
+
+        padding-right: 80px;
+    }
+    .customer--review-count {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        border: none;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product--title .box--sub-location {
+        margin-bottom: 10px;
+    }
+    .product--detail .share--button {
+        bottom: 22px;
+    }
+    .headline .is--tertiary {
+        padding: 12px;
+    }
+    .headline .is--tertiary .svg {
+        margin: 0;
+    }
+    .headline .is--tertiary .text {
+        display: none;
+    }
+    .primary--image {
+        height: 260px;
+    }
+    .rest--images {
+        height: 330px;
+    }
+    .all--image-button {
+        left: auto;
+        right: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .all--image-button .btn {
+        margin-right: 0;
+    }
+    .fasility--information {
+        padding: 30px 18px 20px 18px;
+    }
+    .fasility--information .sub--headline {
+        margin: 0px 0px 20px 0px;
+    }
+    .fasility--entities {
+        justify-content: center;
+    }
+    .fasility--entities.type--one .item--fasility {
+        padding-right: 0;
+        width: 100%;
+        max-width: 240px;
+    }
+    .fasility--entities.type--two .item--fasility {
+        width: 100%;
+        max-width: 240px;
+    }
+    .rooms.box--info .image--box{
+        height: 200px;
+    }
+    .room--registration {
+        flex-direction: column;
+    }
+    .room--registration .register--button {
+        margin-top: 26px;
+        width: 100%;
+    }
+    .room--registration .btn {
+        text-align: center;
+        width: 100%;
+    }
+    .detail--review--panel {
+        padding: 30px 18px;
+    }
+    .detail--review .headline.two--columns {
+        padding: 20px 20px;
+    }
+    .review--panel {
+        padding: 24px;
+    }
+    .review--title {
+        border-bottom: 1px solid var(--bg-secondary-dark);
+        padding-bottom: 20px;
+    }
+    .review--title .customer--image {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .customer--information-person {
+        padding: 0;
+    }
+    .review--title .customer--name {
+        padding-left: 60px;
+        padding-right: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .review--title .customer--visit {
+        margin-top: 36px;
+    }
+    .customer--review-count {
+        left: 60px;
+        right: auto;
+        top: 20px;
+    }
+    .review--title .listing--box-review {
+        padding: 0px 8px 0px 8px;
+        border-radius: 2px;
+    }
+    .is--detail-page .panel--headline {
+        padding: 20px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
